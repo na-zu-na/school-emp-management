@@ -1,0 +1,26 @@
+spring:
+  #���ݿ�������Ϣ
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jxgl
+    username: root
+    password: 199550
+  #�����ļ��ϴ���С
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+
+#mybatis����
+mybatis:
+  configuration:
+    logimpl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+#���������Զ���
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    accessKeyId: LTAI5t9H1UrG69QvrVs4i93s
+    accessKeySecret: MIHQUJ9hx04UXU5oCTdD4nRYk8QCca
+    bucketName: austin-management
