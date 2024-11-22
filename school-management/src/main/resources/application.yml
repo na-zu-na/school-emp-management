@@ -20,7 +20,7 @@ mybatis:
 #阿里云属性定义
 aliyun:
   oss:
-    endpoint: https://oss-cn-beijing.aliyuncs.com
-    accessKeyId: LTAI5t9H1UrG69QvrVs4i93s
-    accessKeySecret: MIHQUJ9hx04UXU5oCTdD4nRYk8QCca
-    bucketName: austin-management
+    endpoint:
+    accessKeyId:
+    accessKeySecret: 
+    bucketName:
